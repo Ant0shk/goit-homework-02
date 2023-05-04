@@ -64,13 +64,14 @@ body {
 }
 .contact-link {
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fond-family-color);
 }
-
+.address{
+  font-style: normal; 
+}
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
@@ -88,7 +89,7 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.hero {
+.section-hero {
   background-color: var(--background-color-hero);
 }
 .button {
@@ -146,10 +147,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo-color-on-dark);
 }
+/* Кнопки портфолио */
 .list-button-properties {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-button-portfolio);
   background-color: var(--backgraund-color-button-portfolio);
@@ -160,3 +162,4 @@ body {
   background: #404bbf;
   color: #ffffff;
 }
+/* ////////////////////////// */
