@@ -6,8 +6,8 @@
   --logo-color-on-dark: #f4f4fd;
   --background-color-footer: #2e2f42;
   --background-color-hero: #2e2f42;
-  --secondary-title-color:#2e2f42;
-  --text-description-color:#434455;
+  --secondary-title-color: #2e2f42;
+  --text-description-color: #434455;
   --color-button-portfolio: #4d5ae5;
   --backgraund-color-button-portfolio: #f4f4fd;
 }
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-description-color)
+  color: var(--text-description-color);
 }
 
 /* Шапка */
@@ -107,20 +107,20 @@ body {
 }
 /* Презентация и специалисты*/
 
-.secondary-title-cection {
+.secondary-title-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-
+  color: var(--secondary-title-color);
 }
-.section-spesialist{
-  background-color: #F4F4FD;
+.section-spesialist {
+  background-color: #f4f4fd;
 }
 .bottom-background {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 /* Футер */
 .logo {
@@ -154,7 +154,7 @@ body {
   color: var(--color-button-portfolio);
   background-color: var(--backgraund-color-button-portfolio);
   cursor: pointer;
-  }
+}
 .list-button-properties:hover,
 .list-button-properties:focus {
   background: #404bbf;
